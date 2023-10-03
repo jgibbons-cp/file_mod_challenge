@@ -6,7 +6,7 @@ metadata:
   name: file-mod-challenge
 spec:
   containers:
-  - image: jenksgibbons/file_mod_challenge
+  - image: jenksgibbons/file_mod_challenge:1.0
     name: file-mod-challenge
     securityContext:
       capabilities:
