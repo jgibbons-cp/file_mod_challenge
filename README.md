@@ -23,9 +23,17 @@ Accessing the files:
   
 ```kubectl create -f file_mod_challenge.yaml```  
   
+and  
+  
+```kubectl exec -it file-mod-challenge -- bash```  
+  
 2) Docker  
   
 ```docker run -d --cap-add LINUX_IMMUTABLE --name file-mod-challenge jenksgibbons/file_mod_challenge:1.0```  
+
+and  
+
+```docker exec -it file-mod-challenge bash```    
   
 Hints:
 
