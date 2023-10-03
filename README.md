@@ -15,8 +15,7 @@ In ```/files``` there are two files -
   
 In file_to_change change the text of the file.  
   
-In file_to_append try to change the text of the file and append another line 
-to the file.  
+In file_to_append add another line to the file.  
   
 Accessing the files:  
   
